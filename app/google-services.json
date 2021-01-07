@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "946925934167",
+    "project_id": "smaprojectfb",
+    "storage_bucket": "smaprojectfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946925934167:android:0ac302effe278a36717512",
+        "android_client_info": {
+          "package_name": "com.example.smaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946925934167-895d7h0jld43nqc2d91u2ebcs0hk1skn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlKzg62j8qVN5vp9zjUduiCzEBRQIJCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946925934167-895d7h0jld43nqc2d91u2ebcs0hk1skn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

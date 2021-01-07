@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/eartth"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Global Guide"
+    android:gravity="center"
+    android:textSize="30dp"
+    android:textColor="#DCA3A3"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/transparent"
+        />
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With this application every tourist can find a certain guide for their travels just by pressing the 'search' button,and every person who wants to be a guide can register and chose the city they can be a guide for."
+            android:visibility="gone"
+            android:textColor="#FFFFFF"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_search"
+                android:text="Search"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                />
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:text="Login"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="30dp"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

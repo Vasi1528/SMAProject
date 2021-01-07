@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    tools:context=".LoggedActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logout"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="Weloce to global guide app.Here are your profile details."/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name:"/>
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="aaa"
+                            />
+                        <EditText
+                            android:id="@+id/et_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Introduce your new name"
+                            android:visibility="gone"/>
+                        <Button
+                            android:id="@+id/btn_change"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Change"/>
+                        <Button
+                            android:id="@+id/btn_changed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ok"
+                            android:visibility="gone"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PhoneNumber:"/>
+                        <TextView
+                            android:id="@+id/tv_phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="aaa"
+                            />
+                        <EditText
+                            android:id="@+id/et_phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Introduce your phone number"
+                            android:inputType="phone"
+                            android:visibility="gone"/>
+                        <Button
+                            android:id="@+id/btn_change2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Change"/>
+                        <Button
+                            android:id="@+id/btn_changed2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ok"
+                            android:visibility="gone"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="City:"/>
+                        <TextView
+                            android:id="@+id/tv_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="aaa"
+                            />
+                        <EditText
+                            android:id="@+id/et_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Introduce the city you can be a guide for"
+                            android:visibility="gone"/>
+                        <Button
+                            android:id="@+id/btn_change3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Change"/>
+                        <Button
+                            android:id="@+id/btn_changed3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ok"
+                            android:visibility="gone"/>
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>
